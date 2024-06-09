@@ -125,6 +125,7 @@ public class NoteDbOpenHelper extends SQLiteOpenHelper {
                 note.setContent(content);
                 note.setCreatedTime(createTime);
                 note.setWeather(weather);
+
                 noteList.add(note);
             }
             cursor.close();
